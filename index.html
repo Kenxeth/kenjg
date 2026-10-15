@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0088da">
+  <meta name="description" content="Kenneth Gonzalez, an aspiring Software Engineer. Explore my projects, experience at Intuit Credit Karma, Google, and Mastercard, and technical skills in a Club Penguin-inspired portfolio.">
+  <title>Kenneth Gonzalez · Player Card</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="assets/tech-icons.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!-- Shared vector icons keep the dock sharp at every screen size. -->
+  <svg class="svg-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="icon-igloo" viewBox="0 0 40 40"><path d="M4 30a16 16 0 0 1 32 0v3H4z" fill="#e7f7ff"/><path d="M5 24h30M10 16h20M20 14v10M12 24v9m16-9v9" stroke="#7798c4" stroke-width="2"/><path d="M16 33v-7a4 4 0 0 1 8 0v7" fill="#0c548a"/><path d="M4 30a16 16 0 0 1 32 0v3H4z" fill="none" stroke="#163b61" stroke-width="2.5"/></symbol>
+    <symbol id="icon-resume" viewBox="0 0 40 40"><path d="M10 6h22v29H8V8z" fill="#fff7d2" stroke="#163b61" stroke-width="2.5"/><path d="M15 5h11v6H15z" fill="#ffc73b" stroke="#163b61" stroke-width="2"/><path d="M14 17h12m-12 6h12m-12 6h8" stroke="#5489a9" stroke-width="2.5" stroke-linecap="round"/></symbol>
+    <symbol id="icon-penguin" viewBox="0 0 40 40"><path d="M10 21c-7 3-8 10-4 11l7-4m17-7c7 3 8 10 4 11l-7-4" fill="#093c69" stroke="#153653" stroke-width="2"/><path d="M20 6c-10 0-11 13-11 20s4 9 11 9 11-2 11-9S30 6 20 6z" fill="#145486" stroke="#153653" stroke-width="2"/><ellipse cx="20" cy="25" rx="7" ry="8" fill="white"/><ellipse cx="17" cy="16" rx="3" ry="5" fill="white"/><ellipse cx="23" cy="16" rx="3" ry="5" fill="white"/><path d="m15 21 5-3 5 3-5 4z" fill="#ffbd22" stroke="#153653" stroke-width="1.5"/></symbol>
+    <symbol id="icon-tools" viewBox="0 0 40 40"><path d="m10 7 23 25-5 5L6 12z" fill="#ffce51" stroke="#173b61" stroke-width="2"/><path d="M29 5a9 9 0 0 0-11 12L6 29a4 4 0 0 0 6 6l12-13A9 9 0 0 0 35 11l-6 5-5-5z" fill="#dcecf6" stroke="#173b61" stroke-width="2.5"/></symbol>
+    <symbol id="icon-mail" viewBox="0 0 40 40"><rect x="4" y="10" width="32" height="24" rx="3" fill="#fff6d5" stroke="#163b61" stroke-width="2.5"/><path d="m5 12 15 12 15-12M5 32l11-11m19 11L24 21" fill="none" stroke="#c49b5b" stroke-width="2"/><path d="M28 13h5v6h-5z" fill="#8bc8e5"/></symbol>
+    <symbol id="icon-code" viewBox="0 0 40 40"><path d="m14 12-9 8 9 8m12-16 9 8-9 8m-4-21-5 26" fill="none" stroke="#f1fbff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-stamps" viewBox="0 0 40 40"><path d="m10 5 5 2 5-3 5 3 6-1 1 6 4 4-3 5 1 6-6 2-4 5-5-3-6 1-1-6-5-4 3-5z" fill="#f3faff" stroke="#163b61" stroke-width="2"/><path d="m14 13 13-2 3 14-14 3z" fill="#89a5e8" stroke="#163b61" stroke-width="2"/></symbol>
+    <symbol id="icon-briefcase" viewBox="0 0 40 40"><path d="M14 12V7h12v5" fill="none" stroke="#163b61" stroke-width="3"/><rect x="4" y="12" width="32" height="23" rx="3" fill="#dca14a" stroke="#163b61" stroke-width="2.5"/><path d="M4 17q16 15 32 0" fill="#f2c875" stroke="#163b61" stroke-width="2"/><rect x="17" y="21" width="6" height="7" rx="1" fill="#fff0ab" stroke="#163b61" stroke-width="1.5"/></symbol>
+    <symbol id="icon-github" viewBox="0 0 24 24"><path fill="#f1fbff" d="M12 .7a11.6 11.6 0 0 0-3.7 22.6c.6.1.8-.2.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 1.7 2.6 1.2 3.3.9.1-.8.4-1.2.8-1.5-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.9 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.2c0 .4.2.7.8.6A11.6 11.6 0 0 0 12 .7z"/></symbol>
+    <symbol id="icon-mastercard" viewBox="0 0 48 48"><circle cx="18" cy="24" r="14" fill="#eb001b"/><circle cx="30" cy="24" r="14" fill="#f79e1b"/><path d="M24 11.35a14 14 0 0 1 0 25.3 14 14 0 0 1 0-25.3z" fill="#ff5f00"/></symbol>
+    <symbol id="icon-pipeline" viewBox="0 0 48 48"><path d="M11 16h25M11 32h25M13 16v16m22-16v16" fill="none" stroke="#8e74c9" stroke-width="3"/><rect x="3" y="9" width="15" height="14" rx="4" fill="#ffb74e" stroke="#a36d23" stroke-width="1.5"/><path d="m9 13 4 6H8m4-6 3 6" fill="none" stroke="#fff" stroke-width="1.8"/><rect x="29" y="9" width="15" height="14" rx="4" fill="#8b6acb"/><path d="M33 16h7m-3-3 3 3-3 3" fill="none" stroke="#fff" stroke-width="1.8"/><ellipse cx="11" cy="30" rx="8" ry="4" fill="#5ca9e3"/><path d="M3 30v7c0 6 16 6 16 0v-7" fill="#3f88c5" stroke="#215c95" stroke-width="1.5"/><ellipse cx="11" cy="30" rx="8" ry="4" fill="#83c5f0"/><path d="M30 30h14v11H30z" fill="#65a86d" stroke="#377e42" stroke-width="1.5"/><path d="m32 30 5-5 5 5" fill="#8dcc82" stroke="#377e42" stroke-width="1.5"/></symbol>
+    <symbol id="icon-mira" viewBox="0 0 48 48"><rect x="3" y="9" width="42" height="30" rx="10" fill="#def3ee" stroke="#4e9e95" stroke-width="1.5"/><path d="M7 24s7-10 17-10 17 10 17 10-7 10-17 10S7 24 7 24z" fill="#fafffe" stroke="#218f89" stroke-width="2"/><circle cx="24" cy="24" r="7" fill="#24a7a1"/><circle cx="24" cy="24" r="3" fill="#16465e"/><circle cx="26" cy="22" r="1.7" fill="#fff"/><path d="M41 4v7m-3-3h6" stroke="#e7b849" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="icon-familyos" viewBox="0 0 48 48"><path d="m5 21 19-16 19 16" fill="#e8ddfa" stroke="#8161ba" stroke-width="2.5" stroke-linejoin="round"/><path d="M9 19v24h30V19L24 7z" fill="#efe7fc" stroke="#8161ba" stroke-width="2"/><rect x="15" y="17" width="19" height="24" rx="3" fill="#fff" stroke="#a48dca" stroke-width="1.5"/><path d="M20 23h9m-9 5h6" stroke="#b6a3d6" stroke-width="2" stroke-linecap="round"/><rect x="18" y="32" width="10" height="9" rx="2" fill="#8b67c1"/><path d="M20 32v-2a3 3 0 0 1 6 0v2" fill="none" stroke="#8b67c1" stroke-width="2"/><path d="M38 7v8m-4-4h8" stroke="#d7ab3e" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="icon-creditkarma" viewBox="0 0 48 48"><rect x="3" y="3" width="42" height="42" rx="11" fill="#008c81"/><path d="M20 16a11 11 0 1 0 0 16" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/><path d="M27 13v22m11-21-10 10 11 11" fill="none" stroke="#b8f5d8" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-google" viewBox="0 0 48 48"><path d="M40 24h-16" fill="none" stroke="#4285f4" stroke-width="8"/><path d="M36 12a17 17 0 0 0-27 7" fill="none" stroke="#ea4335" stroke-width="8"/><path d="M9 19a17 17 0 0 0 0 12" fill="none" stroke="#fbbc05" stroke-width="8"/><path d="M9 31a17 17 0 0 0 27 7" fill="none" stroke="#34a853" stroke-width="8"/><path d="M36 38a17 17 0 0 0 5-14" fill="none" stroke="#4285f4" stroke-width="8"/></symbol>
+  </defs></svg>
+  <header class="world-header">
+    <a class="brand" href="./"><span class="brand-icon" aria-hidden="true">✳</span> KENNETH GONZALEZ </a>
+    <button class="sound-button" id="sound-toggle" aria-pressed="false" aria-label="Turn on background music and interface sounds">♪ <span>Sound off</span></button>
+  </header>
+  <audio id="background-music" src="assets/pizza-parlor.mp3" loop preload="metadata"></audio>
+  <p class="sr-only" id="audio-status" role="status" aria-live="polite"></p>
+  <main>
+    <div class="intro"><span class="eyebrow">A SENIOR AT CUNY HUNTER COLLEGE</span><h1 id="hero-headline">Hi, my name is Kenneth Gonzalez,<br> an aspiring <span>Software Engineer</span></h1><p>Explore my projects, experience, and technical inventory.</p></div>
+    <button class="reopen-card" id="reopen-card" hidden><svg aria-hidden="true"><use href="#icon-penguin"/></svg> Open my player card</button>
+    <div class="portfolio" id="portfolio">
+      <section class="player-card" aria-label="Player card">
+        <div class="member-badge" role="img" aria-label="Member badge">
+          <svg viewBox="0 0 90 112" aria-hidden="true">
+            <defs><linearGradient id="badge-gold" x2="1" y2="1"><stop stop-color="#fff4b0"/><stop offset=".45" stop-color="#ffc64d"/><stop offset="1" stop-color="#e99415"/></linearGradient></defs>
+            <path d="M14 9Q45-4 76 9l-4 36-4 42-23 20-23-20-4-42z" fill="#104677" stroke="#111e26" stroke-width="3"/>
+            <path d="M16 10Q45 0 74 10l-7 42-22 15-22-15z" fill="url(#badge-gold)" stroke="#fff6cf" stroke-width="3"/>
+            <path d="m20 14 25 25L29 8m16 1v30L62 9m8 5L45 39l26-9M19 30l26 9-21 12m43 0L45 39v25" stroke="#ffefaa" stroke-width="3"/>
+            <path d="m45 15 5 12 13 1-10 9 3 13-11-7-12 7 3-13-10-9 14-1z" fill="#ffdf66" stroke="#b77a10" stroke-width="2"/>
+            <path d="m22 58 23 12 23-12-2 13-21 13-21-13zm3 20 20 12 20-12-1 10-19 17-19-17z" fill="#ffc839" stroke="#d38a13" stroke-width="1.5"/>
+            <path d="m21 66 24 15 24-15m-44 23 20 13 20-13" fill="none" stroke="#c5efff" stroke-width="4"/>
+            <path d="m9 50-7 8 10 2-2 11 15-6h40l15 6-2-11 10-2-7-8-19 1H28z" fill="#ffd45b" stroke="#162733" stroke-width="2.5"/>
+            <path d="M12 49q33-12 66 0v17q-33-12-66 0z" fill="#ffe488" stroke="#162733" stroke-width="2.5"/>
+            <text x="45" y="59" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="11" font-weight="900" fill="#191d20" transform="rotate(-2 45 59)">MEMBER</text>
+            <path d="m45 91 4 6 7 1-5 5 1 7-7-3-7 3 1-7-5-5 7-1z" fill="#ffd358" stroke="#b67719" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <header class="player-header"><h2 id="player-name">Kenneth Gonzalez</h2><button class="ring-close" id="close-card" aria-label="Close player card"><span>×</span></button></header>
+        <div class="avatar-stage">
+          <div class="lantern-pin" role="img" aria-label="Lantern pin"><svg viewBox="0 0 48 68" aria-hidden="true"><path d="M16 21C11 4 37 0 32 22l5 3 4 32-7 6H10l-5-6 7-32z" fill="#b92621" stroke="#fff" stroke-width="7" stroke-linejoin="round"/><path d="M16 21C11 4 37 0 32 22" fill="none" stroke="#151d22" stroke-width="3"/><path d="m13 22 22 1 4 32-6 5H11l-4-5z" fill="#d52b20" stroke="#151d22" stroke-width="3"/><path d="m16 28 15 1 3 22-6 4-13-4z" fill="#ffff92" stroke="#151d22" stroke-width="2"/><path d="m16 30 15 21m0-21L16 50" stroke="#caa62c" stroke-width="1.5"/><path d="m10 56 27 1" stroke="#ffae69" stroke-width="3"/></svg></div>
+          <div class="penguin-avatar">
+            <!-- Original vector explorer with the reference's bold Flash-era proportions. -->
+            <svg viewBox="0 0 320 360" role="img" aria-label="Blue explorer penguin in a yellow jacket, helmet, sunglasses, and a red striped tie">
+              <ellipse cx="164" cy="337" rx="112" ry="13" fill="#623b0a" opacity=".26"/>
+              <g stroke="#131b1f" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+                <path d="M103 298c-20 2-43 18-43 30 1 18 52 17 91 8l-1-31zm113 0c20 2 43 18 43 30-1 18-52 17-91 8l1-31z" fill="#a47b06"/>
+                <path d="M61 328q45 15 90 2m18 0q45 15 89-2" fill="none"/>
+                <path d="M159 70c-46 0-62 54-65 117-2 47 8 100 66 102 58-2 67-55 65-102-3-63-19-117-66-117z" fill="#078cba"/>
+                <path d="M160 149c-31 0-44 33-46 68s12 58 46 58 48-23 46-58-15-68-46-68z" fill="#fffdf3"/>
+                <path d="M96 170c-19 1-42 31-51 64l12 18 25-6 25-50" fill="#ffed13"/>
+                <g ><path d="M225 174c23 3 49 36 49 67l-17 12-24-14-20-43" fill="#ffed13"/><path d="M255 236c-2-18 14-21 22-8 9 9 1 26-11 27" fill="#058cb5"/><path d="m255 239 25 3-5 15-24-8z" fill="#ffdf13"/><path d="m255 246 19 6m-15-13 18 7" stroke="#bfa410" stroke-width="2"/></g>
+                <path d="m105 160-29 12-10 34 9 52-15 55q103 32 201-1l-15-51 8-53-14-33-30-15-50 27z" fill="#fff01a"/>
+                <path d="m102 159-16 26 51 13 23-20-25-27m74 8 18 26-49 13-18-20 24-27" fill="#ffff75"/>
+                <path d="m92 202-5 61m141-62 9 61M157 204l-4 98" fill="none" stroke="#9f9418" stroke-width="3"/>
+                <path d="m83 265 45 8q-5 29-31 22-15-6-14-30zm110 8 43-8q0 29-14 31-25 5-29-23z" fill="#ffeb0a"/>
+                <path d="m88 274 35 6m75 0 33-7" fill="none" stroke="#c6aa0d" stroke-width="3"/>
+                <path d="m154 179 21 1 5 17-14 13-19-15z" fill="#ed2518"/>
+                <path d="m154 205 18-1 16 73-24 19-21-19z" fill="#f3f515"/>
+                <path d="m153 216 22 8 4 18-29-14zm-5 31 35 12 4 15-42-14z" fill="#f32819" stroke="none"/>
+                <path d="m154 205 18-1 16 73-24 19-21-19z" fill="none"/>
+                <circle cx="135" cy="215" r="4" fill="#fff8a5"/><circle cx="135" cy="254" r="4" fill="#fff8a5"/>
+                <path d="m102 112-10 35 17 12 10-35m98-12 10 35-17 12-10-35" fill="#ecec21"/>
+                <path d="m100 137 10 7m104-7-10 7" stroke="#999f14" stroke-width="3"/>
+                <path d="M103 107q56-19 112 0l-9 32-35-5-10-13-10 13-36 4z" fill="#131f29"/>
+                <path d="m112 111 15-2-7 21-4-1zm62-3 14 2-8 17-6-3z" fill="#f9fbf2" stroke="none"/>
+                <path d="M135 131q24-26 49 0l13 21q-3 24-37 22-33 0-39-19z" fill="#ffb900"/>
+                <path d="M122 153q37 12 73-1" fill="none" stroke="#dc8b0e" stroke-width="2"/>
+                <path d="M111 94q0-54 50-54t50 54" fill="#e4eb14"/>
+                <path d="M119 77q14-25 41-25t41 25" fill="none" stroke="#ffff9b" stroke-width="7"/>
+                <path d="m101 89-11 23q68-18 139 0l-10-24q-58-23-118 1z" fill="#b9c719"/>
+                <path d="m99 91 17 4 4-9 14 7 9-11 14 9 12-9 13 11 15-5 4 10 16-3" fill="none" stroke="#f5f64a" stroke-width="4"/>
+                <path d="m151 57-11-45 11 6 3-11 9 5 9-6 2 12 11-6-13 48z" fill="#ed291d"/>
+                <path d="m153 20 7 30m9-29-4 29" fill="none" stroke="#a00c12" stroke-width="2"/>
+                <path d="m91 112 10-11m127 11-10-11" fill="none"/>
+                <path d="m49 228-8 13 13 2-4 10 15-3" fill="#fff01a"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="player-stats">
+          <div class="stat-row"><span class="coin-icon" aria-hidden="true"><svg viewBox="0 0 40 44"><ellipse cx="20" cy="22" rx="12" ry="19" fill="#d68c16" stroke="#76500f" stroke-width="1.5"/><ellipse cx="18" cy="21" rx="10" ry="18" fill="#f8c54c" stroke="#fff0a6" stroke-width="2"/><path d="m18 7 2 9 5 3-4 5 1 10-5-6-4 4 1-10-3-5 5-2z" fill="#e4a52c" stroke="#fff0a6" stroke-width="1.2"/><path d="m27 11 3 2m-2 5 3 1m-3 6 3 1m-5 7 3 1" stroke="#a77014" stroke-width="1.5"/></svg></span><span>Your Coins: <span id="coin-count">9999</span></span></div>
+          <div class="stat-row"><span class="stamp-icon" aria-hidden="true"><svg><use href="#icon-stamps"/></svg></span><span>Your Projects: <span id="project-count">3</span></span></div>
+        </div>
+        <nav class="inventory-nav" aria-label="Portfolio sections">
+          <button data-panel="projects" aria-controls="inventory" aria-expanded="false"><span><svg aria-hidden="true"><use href="#icon-igloo"/></svg></span><small>Projects</small></button>
+          <button data-panel="experience" aria-label="Internships / Experience" aria-controls="inventory" aria-expanded="false"><span><svg aria-hidden="true"><use href="#icon-briefcase"/></svg></span><small>Experience</small></button>
+          <button data-panel="resume" aria-label="Open resume in a new tab"><span><svg aria-hidden="true"><use href="#icon-resume"/></svg></span><small>Resume</small></button>
+          <button data-panel="skills" aria-controls="inventory" aria-expanded="false"><span><svg aria-hidden="true"><use href="#icon-tools"/></svg></span><small>Skills</small></button>
+          <button data-panel="about" aria-controls="inventory" aria-expanded="false"><span><svg aria-hidden="true"><use href="#icon-penguin"/></svg></span><small>About Me</small></button>
+          <a class="dock-link" href="https://github.com/Kenxeth" target="_blank" rel="noopener noreferrer" aria-label="Open Kenxeth on GitHub in a new tab"><span><svg aria-hidden="true"><use href="#icon-github"/></svg></span><small>GitHub</small></a>
+        </nav>
+      </section>
+      <aside class="inventory" id="inventory" aria-labelledby="panel-title" inert>
+        <header class="inventory-header"><div><span class="small-label" id="panel-kicker">MY INVENTORY</span><h2 id="panel-title">Projects</h2></div><button class="ring-close" id="close-panel" aria-label="Close inventory"><span>×</span></button></header>
+        <div class="inventory-content" id="panel-content"></div>
+        <footer class="inventory-footer"><span>Click an item to take a closer look</span><span id="item-count"></span></footer>
+      </aside>
+    </div>
+    <div class="below-card"><span class="tiny-star">✦</span> Inspired by Club Penguin! <span class="tiny-star">✦</span></div>
+  </main>
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="project-dialog-title">
+    <header class="project-dialog-header"><div><span class="small-label">PROJECT DETAILS</span><h2 id="project-dialog-title"></h2></div><button class="ring-close" id="close-project-dialog" aria-label="Close project details"><span>×</span></button></header>
+    <div class="project-dialog-content" id="project-dialog-content"></div>
+  </dialog>
+  <!-- <footer class="world-footer"><span>© <span id="year"></span> Kenneth Gonzalez</span><span>Unofficial fan-inspired design · No affiliation with Club Penguin</span><span>MADE FOR THE WEB, WITH A LITTLE WADDLE.</span></footer> -->
+</body>
+</html>

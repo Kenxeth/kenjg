@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Warm horizontal planks and a doorway echo the old lighthouse interior. -->
+  <path fill="#a17012" d="M0 0h400v400H0z"/>
+  <path fill="#aa7718" d="m0 0 400 2v67L0 77zm0 136 400-7v68L0 211zm0 141 400-5v65L0 346z"/>
+  <g fill="none" stroke="#76500d" stroke-width="2.5" opacity=".9"><path d="m0 34 400-8M0 77l400-8M0 137l400-8M0 211l400-14M0 277l400-5"/><path d="m12 54 30-2m258 40 40-1M10 163l33-1m286 71 36-1M20 246h23" stroke-width="1" opacity=".45"/></g>
+  <path d="m0 304 400-16v112H0z" fill="#bd8a2d"/>
+  <path d="m0 304 400-16M32 303 0 359m70-58L31 400m81-101L83 400m71-102-13 102m58-105 6 105m43-107 27 107m20-109 46 109m-5-111 51 82m-7-84 22 29" fill="none" stroke="#91601e" stroke-width="2.5"/>
+  <path d="m55 303-3-179 38-4C103 14 232-5 258 89l39 5-8 197z" fill="#d89624" stroke="#835218" stroke-width="4"/>
+  <path d="m64 298-3-165 39-4C113 26 224 7 249 100l38 4-8 185z" fill="#56a0d3" stroke="#ffc057" stroke-width="6"/>
+  <path d="m64 263 217-33-2 59-214 9z" fill="#74b5df"/>
+  <path d="m55 303 234-12 5 14-234 18z" fill="#c48a25" stroke="#8f601d" stroke-width="2"/>
+  <path d="m55 320 38-2-14 20-42 1z" fill="#dbac55" opacity=".6"/>
+</svg>
