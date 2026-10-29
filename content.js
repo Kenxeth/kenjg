@@ -39,7 +39,7 @@ window.portfolioContent = {
       description: 'A secure AI-powered document vault where families can upload documents and FamilyOS auto-organizes those documents into different sections. Families are able to ask the chatbot questions regarding uploaded documents.',
       tags: ['React', 'Python', 'Node.js', 'AI/LLM Integration'],
       icon: 'familyos',
-      demo: "hackmhc.vercel.app",
+      demo: "https://hackmhc.vercel.app/",
       github: "https://github.com/Kenxeth/hackmhc",
     },
   ],
